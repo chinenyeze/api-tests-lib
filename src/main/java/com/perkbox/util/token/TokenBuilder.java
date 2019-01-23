@@ -69,7 +69,7 @@ public class TokenBuilder {
         if (this.secret == null || this.secret.isEmpty())
             throw new MissingResourceException("Secret key missing", "TokenBuilder", "secret");
 
-        return Jwts.builder().setHeaderParam("alg", "HS256").setIssuer(ISSUER)
+        return Jwts.builder().setHeaderParam("alg", "HS256").setHeaderParam("typ", "JWT").setIssuer(ISSUER)
                 .setIssuedAt(new Date(System.currentTimeMillis())).setSubject(this.userId)
                 .setExpiration(new Date(System.currentTimeMillis() + (this.expiresIn * 1000))).claim("usr", this.email)
                 .claim("ten", this.tenant).claim("aut", JsonToEncoded(this.permissionsJson))
