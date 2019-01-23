@@ -1,6 +1,6 @@
 # API Tests Library from Perkbox
 
-This library simplifies the api tests process. It is built on rest-assured and testng. Latest version: 1.2.5.
+This library simplifies the api tests process. It is built on rest-assured and testng. Latest version: 1.2.7.
 
 
 
@@ -8,7 +8,7 @@ This library simplifies the api tests process. It is built on rest-assured and t
 
 Please find the documentation
 [here](https://rawgit.com/chinenyeze/api-tests-lib/master/doc/Documentation.html) for work in progress version or
-[here](https://cdn.rawgit.com/chinenyeze/api-tests-lib/1.2.5/doc/Documentation.html) for last tagged version.
+[here](https://cdn.rawgit.com/chinenyeze/api-tests-lib/1.2.7/doc/Documentation.html) for last tagged version.
 
 
 
